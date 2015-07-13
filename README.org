@@ -1,0 +1,39 @@
+#+TITLE: replikativ example
+#+CATEGORY: replikativ example
+#+STARTUP: overview 
+#+STARTUP: hidestars
+#+PROPERTY: Assigned_to_ALL kordano
+#+OPTIONS: d:nil
+
+
+This project should give a short view on the replikativ process.
+
+**** Usage
+
+#+BEGIN_SRC Clojure
+lein run
+#+END_SRC
+
+**** TODOs
+***** STARTED adjust to replikativ [50%] 			   :refactor:
+     DEADLINE: <2015-07-13 Mo>
+     :LOGBOOK:  
+     CLOCK: [2015-07-13 Mo 16:23]
+     - State "STARTED"    from "TODO"       [2015-07-13 Mo 16:23]
+     :END:      
+    :PROPERTIES:
+    :Created: [2015-07-13 Mo 16:20]
+    :Associated_file: [[/home/konny/projects/geschichte-example/src/geschichte_example/core.clj]]
+    :Assigned_to: kordano
+    :END:
+- [X] adjust (replikativ-)geschichte-gorilla
+- [X] adjust replikativ-geschichte example
+- [ ] extract necessary data from replikativ structure -> possibly own helper ns
+- [ ] adjust replikativ example
+**** References
+**** License
+
+Copyright © 2015 Konrad Kühne
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.

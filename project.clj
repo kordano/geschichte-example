@@ -7,7 +7,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure "1.6.0"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/core.async "0.1.303.0-886421-alpha"]
 
                  [gorilla-repl "0.3.4" :exclusions [http-kit]]
@@ -19,7 +19,7 @@
                  [aprint "0.1.3"]
 
                  [net.polyc0l0r/konserve "0.2.3"]
-                 [net.polyc0l0r/geschichte "0.1.0-SNAPSHOT"]]
+                 [es.topiq/replikativ "0.1.0-SNAPSHOT"]]
 
   :main geschichte-example.core
 
