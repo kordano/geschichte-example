@@ -10,8 +10,10 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/core.async "0.1.303.0-886421-alpha"]
 
+                 [es.topiq/full.async "0.2.8-beta1"]
+                 
                  [gorilla-repl "0.3.4" :exclusions [http-kit]]
-                 [geschichte-gorilla "0.1.0-SNAPSHOT"]
+                 [geschichte-gorilla "0.1.0-SNAPSHOT":exclusions [org.clojure/clojure]]
 
                  [com.taoensso/nippy "2.8.0"]
                  [com.taoensso/timbre "3.4.0" :exclusions [com.taoensso/encore]]

@@ -16,9 +16,8 @@ lein run
 
 **** TODOs
 ***** STARTED adjust to replikativ [50%] 			   :refactor:
-     DEADLINE: <2015-07-13 Mo>
+      DEADLINE: <2015-07-18 Sa>
      :LOGBOOK:  
-     CLOCK: [2015-07-13 Mo 16:23]
      - State "STARTED"    from "TODO"       [2015-07-13 Mo 16:23]
      :END:      
     :PROPERTIES:

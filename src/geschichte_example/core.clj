@@ -2,16 +2,6 @@
   (:gen-class :main true)
   (:require [hasch.core :refer [uuid]]
             [gorilla-repl.core :as g]
-            [konserve.store :refer [new-mem-store]]
-            [konserve.protocols :refer [-get-in -assoc-in -update-in -bassoc]]
-            [geschichte.sync :refer [server-peer client-peer]]
-            [geschichte.stage :as s]
-            [geschichte.p2p.fetch :refer [fetch]]
-            [geschichte.p2p.hash :refer [ensure-hash]]
-            [geschichte.realize :refer [commit-value]]
-            [geschichte.p2p.block-detector :refer [block-detector]]
-            [geschichte.platform :refer [create-http-kit-handler! <!? start stop]]
-            [clojure.core.async :refer [>!!]]
             [aprint.core :refer [aprint]]
             [taoensso.timbre :as timbre]))
 
